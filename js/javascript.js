@@ -1,3 +1,4 @@
+//prueba de un algoritmo con una condicion
 function main() {
     const n = Number(prompt("Introduce un número: "));
     if (isNaN(n)) {
@@ -12,6 +13,5 @@ function main() {
       }
     }
   }
-  
   main();
-  
+
