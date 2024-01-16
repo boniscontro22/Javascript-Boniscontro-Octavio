@@ -1,22 +1,17 @@
-function calcular() {
-    var numero1 = document.getElementById("numero1").value;
-    var numero2 = document.getElementById("numero2").value;
-    var resultado = parseFloat(numero1) + parseFloat(numero2);
-    document.getElementById("resultado").innerHTML = resultado;
-  }
-
-  //algoritmo con condicional
-  function main() {
+function main() {
     const n = Number(prompt("Introduce un número: "));
-    if (n % 2 === 0) {
-      console.log("holasoygerman");
+    if (isNaN(n)) {
+      console.log("El valor introducido no es un número.");
     } else {
-      console.log("alv");
+      if (n % 2 === 0) {
+        // Video de Messi haciendo un gol de chilena
+        window.open("https://www.youtube.com/watch?v=XmTpNdZnpGE&pp=ygUMbWVzc2kgY2HDsW8g");
+      } else {
+        // Video de Messi haciendo un caño
+        window.open("https://www.youtube.com/watch?v=ASurYXX43nQ&pp=ygUJbWVzc2kgZ29s");
+      }
     }
   }
   
   main();
-  
-  
-  
   
