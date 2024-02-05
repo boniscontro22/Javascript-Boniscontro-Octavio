@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title class="titulo">Messi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación de Vuelo</title>
+  <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-
-    <script src="./js/javascript.js"></script>
+  <div id="contenedor">
+    <h1>Simulación de Vuelo</h1>
+    <p>Seleccione un aeropuerto de origen y destino:</p>
+    <select id="origen"></select>
+    <select id="destino"></select>
+    <button id="iniciar">Iniciar vuelo</button>
+    <div id="pantalla-info"></div>
+  </div>
+  <table>
+    <tr>
+      <th>Aerolínea</th>
+      <th>Horario de salida</th>
+      <th>Horario de llegada</th>
+      <th>Duración</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Aerolínea 1</td>
+      <td>10:00</td>
+      <td>12:00</td>
+      <td>2 horas</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Aerolínea 2</td>
+      <td>12:00</td>
+      <td>14:00</td>
+      <td>2 horas</td>
+      <td>$120</td>
+    </tr>
+  </table>
+  
+  <script src="./script.js"></script>
 </body>
 </html>
